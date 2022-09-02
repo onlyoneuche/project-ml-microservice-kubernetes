@@ -1,6 +1,6 @@
 This project has passed. CircleCI Status Badge below.
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/oluwatola/project-ml-microservice-kubernetes/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/oluwatola/project-ml-microservice-kubernetes/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/onlyoneuche/project-ml-microservice-kubernetes/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/onlyoneuche/project-ml-microservice-kubernetes/tree/master)
 
 ## Project Overview - Completed
 
@@ -81,7 +81,7 @@ add log statement to app.py by including: LOG.info(f"output prediction: {predict
 execute ./run_docker.sh again in another terminal and copy the output to a docker_out.txt file (or execute ./rundocker.sh >> docker_out.txt)
 
 Complete Upload_docker.sh file
-set dockerpath="lordthor/microproject:v1.0.0"
+set dockerpath="daleentontech/microproject:v1.0.0"
 authenticate and push docker image.
 
 upload  docker by executing ./upload_docker.sh
@@ -106,7 +106,7 @@ push to github repo and confirm circleci integration (create config.yml file in 
 
 To add circle CI status badge, copy markdown from notifications section of project settings > status badges as shown below:
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/oluwatola/project-ml-microservice-kubernetes/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/oluwatola/project-ml-microservice-kubernetes/tree/main)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/onlyoneuche/project-ml-microservice-kubernetes/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/onlyoneuche/project-ml-microservice-kubernetes/tree/master)
 
 paste in README.md file.
 
